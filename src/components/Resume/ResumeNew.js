@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "http://localhost:3000/static/media/SACHIN_RESUME.pdf.2e6d205240f932f18e05.pdf";
+  "src/Assets/SACHIN_RESUME.pdf.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
